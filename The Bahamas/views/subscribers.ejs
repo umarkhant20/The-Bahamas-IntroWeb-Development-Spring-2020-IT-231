@@ -1,0 +1,25 @@
+<% subscribers.forEach(s => { %>
+  <div class="subscriber">
+    <p id="paragraphs">
+      <span class="item-label">Full Name:</span>
+      <%= s.name %>
+    </p>
+    <p id="paragraphs">
+      <span class="item-label">Email:</span>
+      <%= s.email %>
+    </p>
+    <p id="paragraphs">
+      <span class="item-label">Phone:</span>
+      <%= s.phone %>
+    </p>
+    <p id="paragraphs">
+      <span class="item-label">Message:</span>
+      <%= s.comments %>
+    </p>
+  </div>
+<% }); %>
+
+<footer>
+  <p><a href="/">Home</a> | <a href="atlantis">Atlantis</a> | <a href="dolphin_cay">Dolphin</a> | <a href="about">About</a> | <a href="contact">Contact</a>
+  </p>
+</footer>
